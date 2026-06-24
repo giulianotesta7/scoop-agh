@@ -1,0 +1,17 @@
+{
+  "version": "0.0.0",
+  "description": "Self-hosted guidance distribution for coding agents.",
+  "homepage": "https://github.com/giulianotesta7/AgentGuidanceHub",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/giulianotesta7/AgentGuidanceHub/releases/download/v0.0.0/agh-0.0.0-windows-amd64.zip",
+      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "arm64": {
+      "url": "https://github.com/giulianotesta7/AgentGuidanceHub/releases/download/v0.0.0/agh-0.0.0-windows-arm64.zip",
+      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "bin": "agh.exe"
+}
